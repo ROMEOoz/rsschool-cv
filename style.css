@@ -50,14 +50,16 @@ body {
   .section-item a:hover {
     color: #4d2323;
   }
-  .section-title: h1 Profile
-  .section-title: h2 Summary
-  .section-title: h2 Skills
-  .section-title: h2 Education
-  .section-title: h2 languages
+  .section-title h1 { 
+    font-size: var(--font2);
+    color: var(--color-gold);
+  }
+  .section-title h2 {font-size: var(--font2);
+    color: var(--color-gold);
+  }
   .main-container {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;}
     .section {
       width: 50%;
     }
@@ -104,4 +106,3 @@ body {
   border: 1px solid #829985;
   border-radius: 50%;
 }
-
